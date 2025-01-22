@@ -8,10 +8,10 @@ function Healthcare() {
   return (
     <>
         <div className="container mx-auto p-4 pt-20 sm:pt-20 md:pt-20 lg:pt-20 xl:pt-20">
-          <h2 className="text-4xl text-[#2d2556] font-bold p-5 pl-0 text-center">
+          <h2 className="text-4xl text-[#2d2556] font-bold p-5 pl-0 text-center ">
             Printlyte for Healthcare
           </h2>
-          <div className="grid grid-cols-2 gap-8 p-20">
+          <div className="grid grid-cols-2 gap-8 p-20 max-sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 max-sm:p-8">
               <div>
                 <img
                   src={Communication}
@@ -27,7 +27,7 @@ function Healthcare() {
                   appointment cards to important consent forms and post-surgery
                   instructions.
                 </p>
-                <div className="grid grid-cols-2 font-bold">
+                <div className="grid grid-cols-2 font-bold max-sm:grid-cols-1">
                   <li>Appointment Cards</li>
                   <li>Consent Forms</li>
                   <li>Brochures</li>
@@ -40,7 +40,7 @@ function Healthcare() {
                   alt="project-image"
                   className="w-20 h-20"
                 ></img>
-                <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
+                <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0 ">
                   Medical Stationery
                 </h2>
                 <p>
@@ -49,7 +49,7 @@ function Healthcare() {
                   business cards, and more to ensure a consistent and polished
                   brand image.
                 </p>
-                <div className="grid grid-cols-2 font-bold">
+                <div className="grid grid-cols-2 font-bold max-sm:grid-cols-1">
                   <li>Letterheads</li>
                   <li>Business Cards</li>
                   <li>Envelopes</li>
@@ -71,7 +71,7 @@ function Healthcare() {
                   banners to help you stand out and communicate your services
                   effectively.
                 </p>
-                <div className="grid grid-cols-2  font-bold">
+                <div className="grid grid-cols-2  font-bold max-sm:grid-cols-1">
                   <li className="">Brochures and Flyers</li>
                   <li>Posters</li>
                   <li>Banners</li>
@@ -93,7 +93,7 @@ function Healthcare() {
                   pens, and medical supplies that reflect your practice’s
                   professional image.
                 </p>
-                <div className="grid grid-cols-2  font-bold">
+                <div className="grid grid-cols-2  font-bold max-sm:grid-cols-1">
                   <li className="">Custom Tote Bags</li>
                   <li>Pens, Notebooks, and Pads</li>
                   <li>Branded Medical Supplies</li>

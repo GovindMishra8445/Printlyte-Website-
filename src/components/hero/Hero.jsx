@@ -8,7 +8,7 @@ export default function Hero() {
       
       <div className="flex flex-wrap justify-center items-center p-5 pb-20">
         <div className="p-5 lg:w-1/2 sm:w-full ">
-          <h1 className="text-blue-800 font-bold text-wrap md:text-5xl lg:text-4xl">
+          <h1 className="text-blue-800 font-bold text-wrap md:text-5xl lg:text-4xl max-sm:text-2xl text-left pb-11 ">
             Customized Printing Solutions for the Healthcare Industry.
           </h1>
           <p className="pt-5 pb-8 text-gray-500 size-auto text-lg text-wrap">

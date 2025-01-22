@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-sky-100 py-10 ">
-      <div className=" bg-slate-50 rounded-lg shadow-lg mx-auto w-3/4 sm:w-1/2 p-20 ">
+    <section id="contact" className="bg-sky-100 py-10 max-sm:py-5 max-sm:px-1 ">
+      <div className=" bg-slate-50 rounded-lg shadow-lg mx-auto w-3/4 sm:w-1/2 p-20 max-sm:p-5 ">
         <form action="#" className="grid grid-cols-1 gap-6">
-          <h2 className="text-3xl font-bold text-center text-black pt-5 pb-10">
+          <h2 className="text-3xl font-bold text-center text-black pt-5 pb-10 max-sm:text-xl ">
           Looking for the right business solutions? <br/>Let us help-fill out the form today!
           </h2>
 
-          <div className="grid grid-cols-2 gap-4 ">
+          <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1 ">
             
             <div>
             <label

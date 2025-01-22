@@ -99,18 +99,18 @@ export default function Business() {
     //           </div>
     //         );
     //       })}
-    //     {/* </Slider> */}
+    //     </Slider>
     //   </div>
     // </>
     <>
       <div className="bg-gray-100 ">
-        <h2 className="font-bold text-6xl text-center p-16 text-[#2d2556] sm:text-1xl md:text-5xl">
+        <h2 className="font-bold text-2xl text-center p-16 text-[#2d2556] sm:text-4xl md:text-5xl sm:p-5 sm:pt-10 ">
         Printlyte: Your Partner in Business Growth
         </h2>
         <div className="container mx-auto p-5">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div>
-              <img src={healthcare} alt="project-image"></img>
+              <img src={healthcare} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Healthcare
               </h2>
@@ -123,7 +123,7 @@ export default function Business() {
               </p>
             </div>
             <div>
-              <img src={resturent} alt="project-image"></img>
+              <img src={resturent} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Restaurants
               </h2>
@@ -136,7 +136,7 @@ export default function Business() {
               </p>
             </div>
             <div>
-              <img src={realestate} alt="project-image"></img>
+              <img src={realestate} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Real Estate
               </h2>
@@ -150,7 +150,7 @@ export default function Business() {
               </p>
             </div>
             <div>
-              <img src={TravelAgencies} alt="project-image"></img>
+              <img src={TravelAgencies} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Travel Agencies
               </h2>
@@ -163,7 +163,7 @@ export default function Business() {
               </p>
             </div>
             <div>
-              <img src={school} alt="project-image"></img>
+              <img src={school} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Schools
               </h2>
@@ -177,7 +177,7 @@ export default function Business() {
               </p>
             </div>
             <div>
-              <img src={Startups} alt="project-image"></img>
+              <img src={Startups} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Startups
               </h2>
@@ -191,7 +191,7 @@ export default function Business() {
               </p>
             </div>
             <div className="justify-between">
-              <img src={Corporates} alt="project-image"></img>
+              <img src={Corporates} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Corporates
               </h2>
@@ -205,7 +205,7 @@ export default function Business() {
               </p>
             </div>
             <div>
-              <img src={ReatailChains} alt="project-image"></img>
+              <img src={ReatailChains} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For Retail Chains
               </h2>
@@ -219,7 +219,7 @@ export default function Business() {
               </p>
             </div>
             <div>
-              <img src={MNCs} alt="project-image"></img>
+              <img src={MNCs} alt="project-image" className="w-full h-auto overflow-hidden"></img>
               <h2 className="text-3xl text-[#2d2556] font-bold p-5 pl-0">
                 For MNCs
               </h2>

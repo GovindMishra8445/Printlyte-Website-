@@ -8,10 +8,8 @@ import Business from './components/business/Business';
 import Healthcare from './components/healthcare/Healthcare';
 import Skills from './components/skills/Skills';
 import CustomerService from './components/CustomerService/CustomerService';
-import Language from './components/language/Language';
 import Footer from './components/footer/Footer';
-import Deliverd from './components/Delivered/Deliverd';
-import Billing from './components/billing/Billing';
+import Delivered from './components/Delivered/Delivered';
 import Printer from './components/printer/Printer';
 
 export default function App() {
@@ -22,11 +20,10 @@ export default function App() {
     <Contact />
     <Business />
     <Healthcare/>
-    <Deliverd/>
-    <CustomerService/>
-    <Printer/>
+    <Delivered/>
+    {/* <CustomerService/> */}
+    {/* <Printer/> */}
     <Skills />
-    {/* <Billing/> */}
     <Footer />
    </main>
   )

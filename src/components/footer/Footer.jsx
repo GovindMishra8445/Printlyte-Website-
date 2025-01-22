@@ -38,10 +38,12 @@ const Footer = () => {
         <div>
           <img src={printlyte} className="mb-5 w-52" alt="" />
           <p className="w-full md:w-2/3 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur delectus, illum fugit architecto facere nemo temporibus
-            et minus ipsam quae mollitia modi aut quasi vitae praesentium
-            inventore pariatur fugiat voluptates.
+            "Printlyte: Elevating healthcare communication with
+            precision-crafted materials for hospitals, clinics, and labs—where
+            quality meets compliance. From tailored marketing solutions to
+            professional branding essentials, we ensure every detail aligns with
+            industry standards, empowering your organization to make a
+            lasting impact."
           </p>
         </div>
         <div>
@@ -56,15 +58,15 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">Get in touch</p>
           <ul className="text-gray-600 flex flex-col gap-1">
-            <li>+1-212-456-7890</li>
-            <li>contact@govind.com </li>
+            <li>+91-9549-8905-30</li>
+            <li>Myprint@printlyte.com</li>
           </ul>
         </div>
       </div>
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2025&copy; Govind. All rights reserved.
+          Copyright 2025&copy; Printlyte. All rights reserved.
         </p>
       </div>
     </div>
