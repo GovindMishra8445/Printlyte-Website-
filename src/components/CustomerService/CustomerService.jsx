@@ -1,5 +1,4 @@
 import React from "react";
-import icon from "../../assets/facebook icon.png"
 import GstIcon from "../../assets/GST invoice- icon.png"
 import SinglePOC from "../../assets/Single POC - icon.png"
 import DropShipping from "../../assets/Drop-Shipping Facilities icon.png"
